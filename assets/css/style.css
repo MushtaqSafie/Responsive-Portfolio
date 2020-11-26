@@ -9,5 +9,7 @@
 }
 
 body {
-  background-image: url("https://i.ytimg.com/vi/5xniR1GN69U/maxresdefault.jpg");
+  background-image: url("https://raw.githubusercontent.com/MushtaqSafie/Responsive-Portfolio/main/assets/img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
