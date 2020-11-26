@@ -1,6 +1,7 @@
 .container {
   background-color: #fff;
   margin: 75px 10px 50px 25px;
+  padding: 40px;
 }
 
 .profileimg {
@@ -10,6 +11,7 @@
 
 body {
   background-image: url("https://raw.githubusercontent.com/MushtaqSafie/Responsive-Portfolio/main/assets/img/background.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
+  background-color: lightblue;
 }
+
+
