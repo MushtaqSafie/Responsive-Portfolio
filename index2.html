@@ -22,13 +22,24 @@
     }
 
     .badge {
-      opacity: 0.5;
+      opacity: 0.8;
     }
 
     .badge:hover {
       opacity: 1;
     }
 
+    .main-title span {
+      font-size: 8em;
+    }
+
+    .project-img {
+      width: 400px;
+    }
+
+    /* #project1:hover {
+    content: url("./assets/img/firstProject.png");
+    } */
     /* .logo {
       width: 80px;
     } */
@@ -53,7 +64,7 @@
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Mushtaq Safie <span
-                class="badge rounded-pill bg-success"> &#9679 Online</span></a>
+                class="badge rounded-pill bg-success"> &#9679 Online </span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">PORTFOLIO</a>
@@ -108,7 +119,15 @@
 
 
   <div class="container">
+    
+    <div class="row">
+      <div class="main-title col-sm-12 text-center">
+        <span>Mushtaq</span>
+        <span>&nbsp;Safie</span>
+      </div>
+    </div>
 
+    <!-- 
     <div class="row">
 
       <div class="col-sm-12 col-md-12">
@@ -127,7 +146,6 @@
         <samp>This text is meant to be treated as sample output from a computer program.</samp>
       </div>
       <table class="table table-striped">
-        <!-- On rows -->
         <tr class="active">
           <td class="active">...</td>
           <td class="success">...</td>
@@ -146,7 +164,6 @@
         <tr class="danger">...</tr>
         <tr class="info">...</tr>
 
-        <!-- On cells (`td` or `th`) -->
         <tr>
           <td class="active">...</td>
           <td class="success">...</td>
@@ -155,9 +172,52 @@
           <td class="info">...</td>
         </tr>
       </table>
+    </div> -->
+
+    <div class="row">
+      <hr>
+      <div class="col-sm-12 col-md-12 text-center">
+        <p>PORTFOLIO</p>
+      </div> 
     </div>
+    <br>
+
+    <div class="row align-items-center">
+      <div class="col-lg-6 p-lg-0 text-center">
+        <img id="project1" class="project-img" src="./assets/img/firstProjectLogo.png" alt="" onclick="window.open('https://mushtaqsafie.github.io/Restaurant-Otaku/')">
+      </div>
+
+      <div class="col-lg-5 mx-auto py-3 ">
+        <h3>Project 1<span class="badge bg-success">2010</span></h3>
+
+        <p class="mb-4">A platform for automating data collection and reporting throughout teams, operations and supply chains.</p>
+        <p><small>Design by <a href="https://github.com/MushtaqSafie" target="_blank">Mushtaq Safie</a></small>.</p>
+
+        <a href="https://www.agyleintelligence.com" data-lightbox="" class="btn btn-primary mr-lg-3 d-none d-lg-inline-block">Preview</a>
+        <a href="https://agyleintelligence.com" class="btn btn-outline-primary" target="_blank">Visit site</a>
+      </div>
+    </div>
+    <br><br>
+
+    
+    <!-- <div class="row align-items-center h-100 text-center text-lg-left">
+      <div class="col-lg-6 p-lg-0">
+        <img class="project-img" src="./assets/img/firstProject.png" alt="">
+      </div>
+
+      <div class="col-lg-5 mx-auto py-3">
+        <h3>Project 1<span class="badge bg-success">2010</span></h3>
+
+        <p class="mb-4">A platform for automating data collection and reporting throughout teams, operations and supply chains.</p>
+        <p><small>Design by <a href="https://github.com/MushtaqSafie" target="_blank">Mushtaq Safie</a></small>.</p>
+
+        <a href="https://www.agyleintelligence.com" data-lightbox="" class="btn btn-primary mr-lg-3 d-none d-lg-inline-block">Preview</a>
+        <a href="https://agyleintelligence.com" class="btn btn-outline-primary" target="_blank">Visit site</a>
+      </div>
+    </div> -->
 
   </div>
+  <script src="./assets/script/script.js"></script>
 </body>
 
 </html>
