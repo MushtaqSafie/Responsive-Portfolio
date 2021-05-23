@@ -1,9 +1,9 @@
-# Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
+# Portfolio
 
 An update of my web development portfolio.
 
 
-> [Portfolio Page](file:///C:/Users/musht/Web-Development-Portfolio/index.html)
+[Portfolio Page](https://mushtaqsafie.github.io/Web-Development-Portfolio/)
 
 ## Questions
 **My GitHub Profile**: [MushtaqSafie](https://github.com/MushtaqSafie)
