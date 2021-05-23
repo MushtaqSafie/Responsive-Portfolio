@@ -2,116 +2,480 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-  <title>About ME</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
-    integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
-    integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
-    crossorigin="anonymous"></script>
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.0.2/aos.css" integrity="sha512-ksbpl5EUb4HLEKUNItsPMT/Ih6KcISE53GbYOu3xFUVYvTSSX5AJxTI2aigdQm9uNSkSsRMHsSGNKppkt691lw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css" integrity="sha512-xnP2tOaCJnzp2d2IqKFcxuOiVCbuessxM6wuiolT9eeEJCyy0Vhcwa4zQvdrZNVqlqaxXhHqsSV1Ww7T2jSCUQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css" integrity="sha512-nSomje7hTV0g6A5X/lEZq8koYb5XZtrWD7GU2+aIJD35CePx89oxSM+S7k3hqNSpHajFbtmrjavZFxSEfl6pQA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.0.7/css/boxicons.min.css" integrity="sha256-H8c0yAkzdmZ1/anJofhnKJ3ljR5t3IViHho361BqIro=" crossorigin="anonymous">
 
-  <!-- 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
-    integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <link href="assets/css/style.css" rel="stylesheet">
 
-
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css"
-    integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
-
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
-    integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
-    crossorigin="anonymous"></script> -->
-
-  <!-- Bootstrap CSS -->
-  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="./assets/css/style.css"> -->
-
-  <!-- Bootstrap Javascript -->
-  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script> -->
-
+  <title>Mushtaq Safie Web Development Portfolio</title>
 </head>
 
 <body>
-  <!-- Header of the page -->
-  <header>
-    <!-- NavBar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand text-white bg-info" href="#">&nbsp;Mushtaq Safie&nbsp;</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
-        aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <!-- Nav Links -->
-      <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="./contact.html">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="./index.html">About <span class="sr-only">(current)</span></a>
-          </li>
-        </ul>
-      </div>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex flex-column justify-content-center">
+    <nav id="navbar" class="navbar nav-menu">
+      <ul>
+        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+        <li><a href="#skills" class="nav-link scrollto"><i class="bx bx-book"></i> <span>Skills</span></a></li>
+        <li><a href="#portfolio-details" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Projects</span></a></li>
+        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+      </ul>
     </nav>
   </header>
 
-  main content
-  <main class="container-fluid">
-    <div class="container col-sm-12 col-md-8 col-lg-8">
-      <div class="row">
-        <h1>About Me</h1>
-      </div>
-      <div class="row description">
-        <img src="./assets/img/profileimg.jpg" alt="about me image" class="profileimg">
-        <p class="descript">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid omnis optio animi
-          quibusdam rerum sint autem porro commodi corporis ducimus doloribus dolor obcaecati deserunt fuga, nobis
-          dicta, veritatis voluptas deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus beatae
-          fugiat nobis alias delectus! Expedita eos, quidem voluptate doloribus aspernatur quae nihil aperiam recusandae
-          repellendus, laudantium pariatur, neque adipisci quas fugiat deserunt. Voluptatibus delectus, temporibus
-          voluptate minus facere consequuntur voluptatum molestiae expedita rem dignissimos laudantium culpa dolores non
-          ratione doloremque. Asperiores ad doloremque commodi dolor, nobis, suscipit quo iusto harum atque fugiat
-          recusandae necessitatibus maiores ducimus eveniet nisi est? Minima aliquid necessitatibus eaque distinctio
-          quas corporis illum earum suscipit deserunt molestias, nobis consectetur quisquam et in ipsam voluptate
-          voluptas voluptatum eveniet culpa illo. Ipsam molestiae hic pariatur nisi voluptates dicta!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit tempore alias eum minima sunt? Libero,
-          perferendis dolorum voluptatum iste neque eaque ea sit. Omnis delectus obcaecati culpa similique repudiandae
-          doloremque numquam consectetur id, tempora expedita animi. Mollitia nesciunt natus explicabo, blanditiis
-          voluptatibus vel placeat vitae consequuntur dicta quod quae similique, voluptates aspernatur aut quidem
-          quaerat iste, unde nihil? Iusto, cum officia! Voluptatibus enim illum voluptatem itaque autem sed iure officia
-          quia! Odio totam, aspernatur unde rem quod eos autem iusto.</p>
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center">
+    <div class="container" data-aos="zoom-in" data-aos-delay="100">
+      <h1>Mushtaq Safie</h1>
+      <p>I'm <span class="typed" data-typed-items="Web Developer, Programmer, Full Stack Developer, Developer"></span></p>
+      <div class="social-links">
+        <!-- github, linkedin,  -->
+        <a target="_blank" href="https://www.facebook.com" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a target="_blank" href="https://au.linkedin.com/in/mushtaq-safie-384363205" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <a target="_blank" href="https://github.com/mushtaqsafie" class="github"><i class="bx bxl-github"></i></a>
+        <a target="_blank" href="https://stackoverflow.com/users/story/14602601" class="stack-overflow"><i class="bx bxl-stack-overflow"></i></a>
       </div>
     </div>
-  </main>
+  </section><!-- End Hero -->
 
-  <!-- footer of the page -->
-  <footer class="page-footer font-small bg-dark">
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3 text-white">© 2020 Copyright:
-      <a href="https://mushtaqsafie.github.io/Responsive-Portfolio/"> mushtaqsafie.github.io/Responsive-Portfolio/</a>
+  <main id="main">
+    
+
+
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Skills</h2>
+        </div>
+
+        <div class="row skills-content">
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill">HTML <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">CSS <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">JavaScript <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill">Node js <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Back-end <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Front-end <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="row skills-icon">
+          <div class="col-lg-12">
+            <img src="assets/img/SVG/nodejs.svg" alt="node js" />
+            <img src="assets/img/SVG/javascript.svg" alt="javascript" />
+            <img src="assets/img/SVG/expressjs.svg" alt="expressjs" />
+            <img src="assets/img/SVG/reactjs.svg" alt="reactjs" />
+            <img src="assets/img/SVG/mysql.svg" alt="mysql" />
+            <img src="assets/img/SVG/sequelizejs.svg" alt="sequelizejs" />
+            <img src="assets/img/SVG/mongodb.svg" alt="mongodb" />
+            <img src="assets/img/SVG/handlebarsjs.svg" alt="handlebarsjs" />
+            <img src="assets/img/SVG/jquery.svg" alt="jquery" />
+            <img src="assets/img/SVG/getbootstrap.svg" alt="getbootstrap" />
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Projects Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Projects</h2>
+        </div>
+
+        <!-- project 1-->
+        <div class="row gy-4">
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3>Break-even-analyser</h3>
+              <ul>
+                <li><strong>Project date</strong>: 20 May, 2021</li>
+                <li><strong>Project URL</strong>: <a target="_blank" href="https://breakeven-841.herokuapp.com/">breakeven-841.herokuapp.com</a></li>
+                <li><strong>Github</strong>: <a target="_blank" href="https://github.com/MushtaqSafie/Break-even-analyser">github.com/MushtaqSafie/Break-even-analyser</a></li>
+                <li><strong>Built with</strong>:</li>
+                <li>Node js</li>
+                <li>Express</li>
+                <li>Sequelize (MySQL)</li>
+                <li>React</li>
+                <li>Material-ui</li>
+                <li>Axios</li>
+              </ul>
+            </div>
+            <div class="portfolio-description">
+              <h2>Break-even-analyser project</h2>
+              <p>
+                The break-even point calculation is a useful tool to analyse critical profit drivers of your business including sales volume, average production costs and or average sales price.
+              </p>
+            </div>
+          </div>
+
+
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper-container">
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/project-1/1.JPG" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/project-1/2.JPG" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/project-1/3.JPG" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/project-1/4.JPG" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/project-1/5.JPG" alt="">
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+        </div> <!-- End Projects 1 -->
+
+
+        <br><br>
+        <!-- project-->
+        <div class="row gy-4">
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper-container">
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/project-4/1.JPG" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/project-4/2.JPG" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/project-4/3.JPG" alt="">
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3>Google Books Search</h3>
+              <ul>
+                <li><strong>Project date</strong>: 6 May, 2021</li>
+                <li><strong>Project URL</strong>: <a target="_blank" href="https://books-search-841.herokuapp.com">books-search-841.herokuapp.com</a></li>
+                <li><strong>Github</strong>: <a target="_blank" href="https://github.com/MushtaqSafie/Google-Books-Search">github.com/MushtaqSafie/Google-Books-Search</a></li>
+                <li><strong>Built with</strong>:</li>
+                <li>Node js</li>
+                <li>Express</li>
+                <li>MongoDB</li>
+                <li>React</li>
+                <li>Bootstrap</li>
+                <li>Axios</li>
+              </ul>
+            </div>
+            <div class="portfolio-description">
+              <h2>Google Books Search</h2>
+              <p>
+                Google Books Search app is React-based appliaction build with MongoDB, Express, React, and Node.js (MERN framework).
+              </p>
+            </div>
+          </div>
+
+        </div> <!-- End Projects -->
+
+        <br><br>
+        <!-- project 2-->
+        <div class="row gy-4">
+
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3>SourcE-commerce</h3>
+              <ul>
+                <li><strong>Project date</strong>: 19 March, 2021</li>
+                <li><strong>Project URL</strong>: <a target="_blank" href="https://breakeven-841.herokuapp.com/">SourcE-commerce</a></li>
+                <li><strong>Github</strong>: <a target="_blank" href="https://github.com/MushtaqSafie/SourcE-commerce">github.com/MushtaqSafie/SourcE-commerce</a></li>
+                <li><strong>Built with</strong>:</li>
+                <li>Node js</li>
+                <li>Express</li>
+                <li>Sequelize (MySQL)</li>
+                <li>Handlebar</li>
+                <li>bootstrap</li>
+              </ul>
+            </div>
+            <div class="portfolio-description">
+              <h2>SourcE-commerce project</h2>
+              <p>
+                A collaboration project proudly brought to you by Team Awesome-Sauce, SourcE-commerce is an application that will help business owners track inventory & sales performance as well as provide an e-commerce storefront for customers!
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper-container">
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/project-2/1.JPG" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/project-2/2.JPG" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/project-2/3.JPG" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/project-2/4.JPG" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/project-2/5.JPG" alt="">
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+        </div> <!-- End Projects 2 -->
+
+        <br><br>
+        <!-- project 3-->
+        <div class="row gy-4">
+
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper-container">
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/project-3/1.JPG" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/project-3/2.JPG" alt="">
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3>Restaurant Otaku</h3>
+              <ul>
+                <li><strong>Project date</strong>: 21 Jan, 2021</li>
+                <li><strong>Project URL</strong>: <a target="_blank" href="https://mushtaqsafie.github.io/Restaurant-Otaku/">Restaurant Otaku</a></li>
+                <li><strong>Github</strong>: <a target="_blank" href="https://github.com/MushtaqSafie/Restaurant-Otaku">github.com/MushtaqSafie/Restaurant-Otaku</a></li>
+                <li><strong>Built with</strong>:</li>
+                <li>HTML & CSS</li>
+                <li>Javascript</li>
+                <li>jQuery</li>
+                <li>moment js</li>
+                <li>Google Maps API</li>
+                <li>Zomato API</li>
+              </ul>
+            </div>
+            <div class="portfolio-description">
+              <h2>Restaurant Otaku</h2>
+              <p>
+                This project aims to create a seamless, easily navigable and handy web application for either one-time or recurring users. The main objective of the project is to incorporate practical functions into the application so that frequent restaurant-goers have a convenient and personalised restaurant-searching and saving tool. User experience will be further enhanced by the employment of intuitive design.
+              </p>
+            </div>
+          </div>
+
+        </div> <!-- End Projects 3 -->
+
+      </div>
+    </section><!-- End Projects Section -->
+
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>About</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="assets/img/profile-img.jpg" class="img-fluid profileImg" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content">
+            <h3>Full Stack Web Developer.</h3>
+            <p class="fst-italic">
+              I am passionate about building excellent software that improves the lives of those around me. I specialize in creating software for clients ranging from individuals and small-businesses all the way to large enterprise corporations. What would you do if you had a software expert available at your fingertips?
+            </p>
+            <div class="col-lg-6">
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <strong>Github:</strong> <span>www.github.com/MushtaqSafie</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Sydney, Australia</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Contact Email:</strong> <span>MushtaqSafie@outlook.com</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Discuss a project or just want to say hi? My Inbox is open for all.</p>
+        </div>
+
+        <div class="row mt-1">
+          <div class="col-lg-6">
+            <div class="info">
+              <a href="mailto:mushtaqSafie@outlook.com">
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>MushtaqSafie@outlook.com</p>
+              </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-6 mt-5 mt-lg-0">
+            <!-- <svg id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="256" x2="256" y1="467" y2="0"><stop offset="0" stop-color="#5558ff"/><stop offset="1" stop-color="#00c0ff"/></linearGradient><linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="256" x2="256" y1="512" y2="7.2"><stop offset="0" stop-color="#addcff"/><stop offset=".5028" stop-color="#eaf6ff"/><stop offset="1" stop-color="#eaf6ff"/></linearGradient><g><g><g><path d="m15 91h121c8.291 0 15-6.709 15-15s-6.709-15-15-15h-121c-8.291 0-15 6.709-15 15s6.709 15 15 15zm0 60h121c8.291 0 15-6.709 15-15s-6.709-15-15-15h-121c-8.291 0-15 6.709-15 15s6.709 15 15 15zm482-151h-300c-5.398 0-10.203 2.699-12.898 7.2l162.898 157.8 162.898-157.8c-2.695-4.501-7.5-7.2-12.898-7.2zm-182 302h-300c-5.398 0-10.203 2.699-12.898 7.2l162.898 157.8 162.898-157.8c-2.695-4.501-7.5-7.2-12.898-7.2zm182 59h-121c-8.291 0-15 6.709-15 15s6.709 15 15 15h121c8.291 0 15-6.709 15-15s-6.709-15-15-15zm0 60h-121c-8.291 0-15 6.709-15 15s6.709 15 15 15h121c8.291 0 15-6.709 15-15s-6.709-15-15-15z" fill="url(#SVGID_1_)"/></g></g><g><g><path d="m509.898 7.2-155.177 93.165c-4.752 2.853-10.69 2.853-15.442 0l-155.177-93.165c-1.201 2.1-2.102 4.799-2.102 7.8v150c0 24.898 20.098 45 45 45h240c24.902 0 45-20.102 45-45v-150c0-3.001-.901-5.7-2.102-7.8zm-337.177 395.164c-4.752 2.853-10.69 2.853-15.442 0l-155.177-93.164c-1.201 2.1-2.102 4.799-2.102 7.8v150c0 24.898 20.098 45 45 45h240c24.902 0 45-20.102 45-45v-150c0-3.001-.901-5.7-2.102-7.8z" fill="url(#SVGID_2_)"/></g></g></g></svg> -->
+            <svg id="Capa_1" enable-background="new 0 0 512 512" version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0,192l246.528,156.896c2.816,2.08,6.144,3.104,9.472,3.104s6.656-1.024,9.472-3.104L512,192  L265.6,3.2c-5.696-4.256-13.504-4.256-19.2,0L0,192z" fill="#64B5F6"/>
+            <path d="M416,0H96C78.368,0,64,14.368,64,32v352c0,8.832,7.168,16,16,16h352c8.832,0,16-7.168,16-16V32  C448,14.368,433.664,0,416,0z" fill="#ECEFF1"/>
+            <g fill="#90A4AE">
+              <path d="m144 96h224c8.832 0 16-7.168 16-16s-7.168-16-16-16h-224c-8.832 0-16 7.168-16 16s7.168 16 16 16z"/>
+              <path d="m368 128h-224c-8.832 0-16 7.168-16 16s7.168 16 16 16h224c8.832 0 16-7.168 16-16s-7.168-16-16-16z"/>
+              <path d="m272 192h-128c-8.832 0-16 7.168-16 16s7.168 16 16 16h128c8.832 0 16-7.168 16-16s-7.168-16-16-16z"/>
+            </g>
+            <path d="M265.472,348.896c-2.816,2.08-6.144,3.104-9.472,3.104s-6.656-1.024-9.472-3.104L0,192v288  c0,17.664,14.336,32,32,32h448c17.664,0,32-14.336,32-32V192L265.472,348.896z" fill="#1E88E5"/>
+            <path d="m480 512h-448c-17.952 0-32-14.048-32-32 0-5.088 2.432-9.888 6.528-12.896l240-160c2.816-2.08 6.144-3.104 9.472-3.104s6.656 1.024 9.472 3.104l240 160c4.096 3.008 6.528 7.808 6.528 12.896 0 17.952-14.048 32-32 32z" fill="#2196F3"/>
+            </svg>
+
+          </div>
+        </div>
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3><a href="https://github.com/MushtaqSafie">Mushtaq Safie</a></h3>
+      <p>Sydney, Australia</p>
+      <div class="social-links">
+        <a target="_blank" href="https://www.facebook.com" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a target="_blank" href="https://au.linkedin.com/in/mushtaq-safie-384363205" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <a target="_blank" href="https://github.com/mushtaqsafie" class="github"><i class="bx bxl-github"></i></a>
+        <a target="_blank" href="https://stackoverflow.com/users/story/14602601" class="stack-overflow"><i class="bx bxl-stack-overflow"></i></a>
+      </div>
+
     </div>
-    <!-- Copyright -->
   </footer>
-  <script src="./assets/script/script.js"></script>
+
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+  <!-- CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.0.2/aos.js" integrity="sha512-678bHRnILWQudsPcjDbSoYtwimEk8yPq7BBWeJaFoSHPf7Ob7N7au8M49yY9Wbpmmi0PvDzf3Rca1mbmYQLAxQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/isotope-layout@3.0.6/js/isotope.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.5.8/swiper-bundle.min.js" integrity="sha512-sAHYBRXSgMOV2axInO6rUzuKKM5SkItFLlLHQ8YjRD+FBwowtATOs4njP9oim3/MzyAGrB52SLDjpAOLcOT9TA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js" integrity="sha512-fHXRw0CXruAoINU11+hgqYvY/PcsOWzmj0QmcSOtjlJcqITbPyypc8cYpidjPurWpCnlB8VKfRwx6PIpASCUkQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>
